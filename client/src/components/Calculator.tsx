@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Textarea } from "@/components/ui/textarea";
 import { Copy, RotateCcw } from "lucide-react";
 
 interface CalculatorProps {
@@ -91,6 +92,15 @@ export default function Calculator({
                       ))}
                     </SelectContent>
                   </Select>
+                ) : field.type === "textarea" ? (
+                  <Textarea
+                    id={field.id}
+                    placeholder={field.placeholder}
+                    value={values[field.id] || ''}
+                    onChange={(e) => handleInputChange(field.id, e.target.value)}
+                    data-testid={`textarea-${field.id}`}
+                    className="min-h-[120px]"
+                  />
                 ) : (
                   <Input
                     id={field.id}
