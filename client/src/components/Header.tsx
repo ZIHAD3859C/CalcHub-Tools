@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Moon, Sun, Menu, X, Calculator } from "lucide-react";
 import { useTheme } from "./ThemeProvider";
-import logoImage from "@assets/generated_images/CalcHub_Tools_logo_5d145857.png";
+import logoImage from "@assets/download_1758464627960.png";
 
 interface HeaderProps {
   onMenuClick?: () => void;

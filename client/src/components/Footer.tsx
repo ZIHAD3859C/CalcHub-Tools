@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Facebook, Twitter, Linkedin, MessageCircle, Mail } from "lucide-react";
-import logoImage from "@assets/generated_images/CalcHub_Tools_logo_5d145857.png";
+import logoImage from "@assets/download_1758464627960.png";
 
 export default function Footer() {
   const handleNewsletterSubmit = (e: React.FormEvent) => {
