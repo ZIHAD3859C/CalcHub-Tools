@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Copy, RotateCcw } from "lucide-react";
 
 interface CalculatorProps {
@@ -14,6 +15,7 @@ interface CalculatorProps {
     type: string;
     placeholder: string;
     unit?: string;
+    options?: Array<{ value: string; label: string }>;
   }>;
   onCalculate: (values: Record<string, string>) => string | number;
   resultLabel: string;
@@ -73,14 +75,32 @@ export default function Calculator({
             <div key={field.id} className="space-y-2">
               <Label htmlFor={field.id}>{field.label}</Label>
               <div className="relative">
-                <Input
-                  id={field.id}
-                  type={field.type}
-                  placeholder={field.placeholder}
-                  value={values[field.id] || ''}
-                  onChange={(e) => handleInputChange(field.id, e.target.value)}
-                  data-testid={`input-${field.id}`}
-                />
+                {field.type === "select" ? (
+                  <Select 
+                    value={values[field.id] || ''} 
+                    onValueChange={(value) => handleInputChange(field.id, value)}
+                  >
+                    <SelectTrigger data-testid={`select-${field.id}`}>
+                      <SelectValue placeholder={field.placeholder} />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {field.options?.map((option) => (
+                        <SelectItem key={option.value} value={option.value}>
+                          {option.label}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                ) : (
+                  <Input
+                    id={field.id}
+                    type={field.type}
+                    placeholder={field.placeholder}
+                    value={values[field.id] || ''}
+                    onChange={(e) => handleInputChange(field.id, e.target.value)}
+                    data-testid={`input-${field.id}`}
+                  />
+                )}
                 {field.unit && (
                   <span className="absolute right-3 top-1/2 transform -translate-y-1/2 text-sm text-muted-foreground">
                     {field.unit}

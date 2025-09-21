@@ -7,10 +7,13 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import Home from "@/pages/Home";
 import NotFound from "@/pages/not-found";
 
+import CalculatorPage from "@/pages/CalculatorPage";
+
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
+      <Route path="/calculator/:slug" component={CalculatorPage} />
       {/* Fallback to 404 */}
       <Route component={NotFound} />
     </Switch>
