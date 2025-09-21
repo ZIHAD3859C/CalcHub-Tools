@@ -1,0 +1,358 @@
+Build me a professional, ultra-fast, SEO-optimized, AdSense-ready static website called CalcHub Tools, with placeholder domain "calchubtools.com".
+
+🌍 Branding
+
+Modern, clean SaaS-style design with smooth animations (fade, slide, hover).
+
+Sticky header with logo (left) + menu (right).
+
+Automatic dark/light mode toggle (saved in local storage).
+
+Vector-based logo (calculator + digital gear, no text).
+
+Unique favicon.
+
+Site Title: CalcHub Tools
+
+Tagline: "Smart Online Calculators & Free Productivity Tools"
+
+Contact: calchubtools@gmail.com
+
+
+🏠 Homepage
+
+Hero section with gradient (blue → green), headline, subtext + CTA button.
+
+Featured Tools Grid (12 most popular calculators).
+
+Blog preview (3 latest posts).
+
+Trust badges (“100% Free & Secure”).
+
+Newsletter signup (Mailchimp-ready).
+
+AdSense 728x90 banner under hero.
+
+Fully responsive, smooth scrolling.
+
+
+🛠 Tools Section (50 High-Demand, API-Free & Evergreen Calculators)
+
+1. Age Calculator
+
+
+2. BMI Calculator
+
+
+3. Loan/EMI Calculator
+
+
+4. Percentage Calculator
+
+
+5. Compound Interest Calculator
+
+
+6. Word Counter
+
+
+7. Typing Speed Test
+
+
+8. Unit Converter
+
+
+9. Date Difference Calculator
+
+
+10. Discount Calculator
+
+
+11. Pregnancy Calculator
+
+
+12. Calorie Calculator
+
+
+13. BMR Calculator
+
+
+14. Ideal Weight Calculator
+
+
+15. SIP Calculator
+
+
+16. GST Calculator
+
+
+17. Simple Interest Calculator
+
+
+18. ROI Calculator
+
+
+19. Salary Calculator
+
+
+20. Overtime Calculator
+
+
+21. GPA Calculator
+
+
+22. CGPA Calculator
+
+
+23. Grade Calculator
+
+
+24. Scientific Calculator
+
+
+25. Random Password Generator
+
+
+26. Time Zone Converter
+
+
+27. Age in Months/Days Calculator
+
+
+28. Hours & Minutes Calculator
+
+
+29. Days Between Dates Calculator
+
+
+30. Loan Affordability Calculator
+
+
+31. Investment Return Calculator
+
+
+32. Savings Goal Calculator
+
+
+33. Percentage Increase/Decrease Calculator
+
+
+34. Split Bill Calculator
+
+
+35. Love Calculator (fun tool for traffic).
+
+
+36. Body Fat Calculator
+
+
+37. Waist-to-Hip Ratio Calculator
+
+
+38. Water Intake Calculator
+
+
+39. Ovulation Calculator
+
+
+40. Retirement Calculator
+
+
+41. Work Hours Calculator
+
+
+42. Pay Raise Calculator
+
+
+43. Inflation Calculator
+
+
+44. Net Worth Calculator
+
+
+45. Future Value Calculator
+
+
+46. Mortgage Calculator
+
+
+47. Square Root Calculator
+
+
+48. Cube Root Calculator
+
+
+49. Average Calculator
+
+
+50. Ratio Calculator
+
+
+
+✅ All calculators must be responsive, instant-working, and API-free (no key required).
+
+
+---
+
+Each Tool Page Must Include:
+
+Responsive calculator UI.
+
+600+ word SEO article (intro, use cases, benefits, how-to).
+
+Auto-generated Table of Contents.
+
+FAQ section (with schema markup).
+
+Related Tools grid.
+
+"Copy Result" button.
+
+AdSense placeholders (300x250, 336x280, responsive).
+
+Social share buttons + internal links to related tools.
+
+
+
+---
+
+📝 Blog Section
+
+Grid layout with featured images.
+
+20 starter SEO blogs (800–1200 words each).
+
+Topics: health, finance, education, productivity.
+
+Each blog includes SEO metadata, featured image, TOC, FAQ, social sharing, AdSense placeholders.
+
+
+
+---
+
+📜 Legal Pages
+
+Privacy Policy (AdSense/Analytics disclosure).
+
+Terms of Service.
+
+Disclaimer (educational purpose only).
+
+Sitemap (XML + HTML).
+
+robots.txt
+
+
+
+---
+
+📄 About Page
+
+Mission: Free, simple tools for everyone.
+
+Professional global trust-building text.
+
+
+
+---
+
+📩 Contact Page
+
+Contact form (Name, Email, Subject, Message).
+
+Direct email: calchubtools@gmail.com
+
+AdSense placeholder.
+
+
+
+---
+
+🔗 Footer
+
+Quick links: Tools | Blog | About | Contact | Privacy | Terms
+
+Newsletter signup box.
+
+Social icons: Facebook, Twitter, LinkedIn, WhatsApp.
+
+Copyright © 2025 CalcHub Tools
+
+
+
+---
+
+⚡ SEO & Performance
+
+Each page has unique meta title + description.
+
+Proper H1/H2/H3 hierarchy.
+
+Schema markup (SoftwareApplication, FAQ, Article, Breadcrumb).
+
+Sitemap.xml + robots.txt auto-generated.
+
+Optimized images with alt tags.
+
+Lazy loading + minified CSS/JS.
+
+Mobile-first responsive.
+
+PageSpeed 95+.
+
+
+
+---
+
+💰 Monetization
+
+AdSense ads:
+
+728x90 (homepage hero bottom + tool headers).
+
+300x250 (sidebars).
+
+336x280 (blogs + footer).
+
+
+Affiliate placeholders (Amazon, SaaS tools).
+
+Newsletter for email monetization.
+
+
+
+---
+
+🚀 Extra Features
+
+Live search filter for tools.
+
+Sidebar: "Most Popular Tools".
+
+Related tools under each calculator.
+
+Push notification placeholder (OneSignal-ready).
+
+Sticky header with smooth animation.
+
+Dark/Light mode toggle (saved in local storage).
+
+
+
+---
+
+🛠 Deployment
+
+100% GitHub Pages friendly (relative paths ./assets/...).
+
+Assets folder: CSS/JS/images.
+
+Google Analytics + AdSense placeholders integrated.
+
+Cloudflare SSL ready.
+
+Fully functional after GitHub push.
+
+
+
+---
